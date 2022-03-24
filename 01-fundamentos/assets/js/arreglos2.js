@@ -30,6 +30,3 @@ let juegosBorrados = juegos.splice(pos, 2);
 console.log({juegosBorrados, juegos});
 
 // .indexOf: Saber la posicion en la que se encuentra un elemento. CaseSensitive
-let fifaIndex = juegos.indexOf('Fifa');
-console.log({fifaIndex}); 
-// Nota: cuando hacemos un indexOf y nos retorna -1 significa que no encontro el elemento

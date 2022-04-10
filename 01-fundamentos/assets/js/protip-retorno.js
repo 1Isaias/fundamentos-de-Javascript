@@ -25,4 +25,4 @@ const imprimeArgumentos2 = (edad, boolean, ...args) => {
 const [casado, vivo, nombre, saludo] = imprimeArgumentos2(10, true, false, 'Isaias', 'Hola', 'chau')
 console.log({casado, vivo, nombre, saludo, despedida})
 
-const persona2 = crearPersona('Isaias', 'Fonseca');
+

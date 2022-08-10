@@ -27,12 +27,13 @@ while(carros[i]){
 }
 
 
-
 // La unica diferencia con el hile es que el Do While va a ejecutar el bloque interno aunque sea una vez
 // estructura:
 // do{
 // // este codigo se va a ejecutar al menos una vez
 // }while(); // y se va a seguir repitiendo siempre y cuando esta condiion sea correcta
-console.warn('do while')
+console.warn('do while');
 j = 0;
+
+
 

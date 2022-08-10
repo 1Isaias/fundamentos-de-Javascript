@@ -15,12 +15,17 @@ console.log(true); // true
 console.log(!true); // false 
 console.log(!false); // true 
 
+console.log(true); // true
+console.log(false); // true
+
 // AND
 console.warn('And'); //true si todos los valores son verdaderos
 console.log(true && true); // true
 console.log(true && false); // true
 console.log(false && !false); // true
 console.log(false && !false); // true
+
+
 
 console.log('========');
 console.log(regresaFalse() && regresaTrue()); // false
@@ -66,3 +71,10 @@ if(regresaFalse() && regresaTrue() && true || false || true){
 }
 // Usualmente para esto se utiliza la logica booleana
 // No deberiamos tener mas de tres condiciones, si tenemos mas condiciones deberiamos pensar alguna forma de simplificarlo
+
+
+
+
+
+
+

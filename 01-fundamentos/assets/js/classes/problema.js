@@ -36,3 +36,12 @@ console.log(maria);
 maria.imprimir();
 melissa.imprimir();
 
+melissa(imprimir);
+melissa(imprimir);
+
+
+
+
+
+
+

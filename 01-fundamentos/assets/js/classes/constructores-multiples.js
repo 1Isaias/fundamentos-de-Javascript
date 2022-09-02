@@ -32,5 +32,4 @@ const persona1 = new Persona(nombre1, apellido1, pais1);
 const persona2 = Persona.porObjeto(fher);
 
 persona1.getInfo();
-persona2.getInfo()
-
+persona2.getInfo();

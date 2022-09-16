@@ -169,5 +169,22 @@
 
 }) ();
 
+/*
+    DOM: Document Object Model:
+    Conjunto de objetos anidados para crear un documento HTML
+    La idea del DOM es poder tener acceso dinamico (a traves de programacion) a sus elementos y poder manipularlos
+    Por ejemplo:
+    en HTML tenemos todo lo que es el documento o la pagina inicializada con HTML y todo esto es un objeto, un objeto del DOM.
+    Dentro de ese HTML podemos tener otro objeto que es el <head> y este a su vez tener otras cosas adentro.
+    Tambien podemos tener el body, el cual es otro ojeto, y que nosotros podemos hacer referencia a el y poder manipularlo como nosotros queramos.
+    Dentro del body podemos tener un div y dentro del div un input y luego otro input y dentro un boton. Y todos estos elementos lo podemos manipular:
+    Cambiar, borrar, añadir mas botones. Y todo esto mediante la manipulacion del DOM, utilizando unas sentencias especiales que solo van a funcionar 
+    si estamos utilizando el codigo de JS en el NAVEGADOR WEB ¿Por que? Por que cuando estamos corriendo JS en el servidor, obviametne ahi no existe el DOM, porque no hay elementos HTML osea no hay nada que hacer ahi.
 
+    querySelector y querySelectorAll, ¿Cual es la diferencia?
+    querySelector: me permite a mi recuperar el primer elemento que cumpla la condicion que yo le especifique
+    querySelectorAll: regresa todos los elementos que cumple la condicion, es la unica diferencia.
+    innerText: permite poner texto, por ej: 10, Hola Mundo
+    innerHTML: permite poner unicamente elemento HTML, por ej: '</b>Hola Mundo</b>'
+*/
 
